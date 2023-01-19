@@ -21,4 +21,4 @@ function watch() {
     gulp.watch('css/scss/*.scss', sassCompiler)
 }
 
-gulp.task('default')
+gulp.task('default', watch)
